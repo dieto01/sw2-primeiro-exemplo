@@ -1,5 +1,21 @@
-GET https://ominous-space-dollop-x5p6r97gxj7g3v75j-3000.app.github.dev/api/tarefas
+@url = https://ominous-space-dollop-x5p6r97gxj7g3v75j-3000.app.github.dev/api/tarefas
 
 
+GET {{url}}
 
-POSt https://ominous-space-dollop-x5p6r97gxj7g3v75j-3000.app.github.dev/api/tarefas
+
+######
+
+
+POSt {{url}}
+
+contente-Type: application/json
+
+{
+    "id": 10 , 
+    "title": "executar aplicacao"
+}
+
+#######
+
+GET  {{url}}/2
